@@ -1,0 +1,21 @@
+.container-app{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient( #0127fc, #0594e7, #06a2e0);
+}
+
+.emoji{
+  width: 90vw;
+  height: 90vw;
+ 
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+
+  /*font-size: 190px;*/
+  font-size: clamp(20px, 30vw, 190px);
+}
